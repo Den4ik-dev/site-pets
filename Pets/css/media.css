@@ -1,0 +1,305 @@
+@media screen and (max-width: 1300px) {
+  .header__mnu {
+    display: none;
+  }
+
+  .header__mnu-burger {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .veterinarian__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .body {
+    width: 100%;
+    padding: 0;
+  }
+
+  .veterinarian__body-1 {
+    margin: 0 0 100px 0;
+  }
+
+  .veterinarian__body-2 {
+    margin: 100px 0 0 0;
+  }
+
+  .categories__box-subtitle {
+    text-align: justify;
+  }
+
+  .footer__massages form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__massages form input {
+    width: 100%;
+    max-width: none;
+  }
+  .footer__massages form button {
+    width: 100%;
+    max-width: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mainblock__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .mainblock__img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0 auto 50px auto;
+  }
+  .mainblock__img img {
+    height: 40%;
+  }
+
+  .mainblock__body {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    max-width: none;
+  }
+
+  .categories__block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .categories__box {
+    width: 90%;
+    margin: 0 0 100px 0;
+  }
+  .categories__box:last-child {
+    margin: 0;
+  }
+
+  .purchases__block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .purchases__box {
+    width: 90%;
+    margin: 0 0 100px 0;
+  }
+  .purchases__box:last-child {
+    margin: 0;
+  }
+
+  .vetcare-team__block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .vetcare-team__box {
+    margin: 0 0 100px 0;
+  }
+  .vetcare-team__box:last-child {
+    margin: 0;
+  }
+
+  .achievements__box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 10%;
+            flex: 0 1 10%;
+  }
+
+  .achievements__number {
+    font-size: 23.7px;
+  }
+
+  .achievements__achievement {
+    font-size: 18.5px;
+  }
+
+  .posts__block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .posts__box {
+    width: 90%;
+    margin: 0 0 100px 0;
+  }
+  .posts__box:last-child {
+    margin: 0;
+  }
+
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer__about {
+    margin: 0 0 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__about:after {
+    margin: 0 0 0 75px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .footer__about ul {
+    display: none;
+  }
+
+  .footer__services {
+    margin: 0 0 100px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__services:after {
+    margin: 0 0 0 30px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .footer__services ul {
+    display: none;
+  }
+
+  .footer__massages {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .header__mnu-burger {
+    margin: 30px 0;
+  }
+
+  .mainblock__title {
+    font-size: 37.7px;
+  }
+
+  .subtitle {
+    font-size: 21px;
+  }
+
+  .mainblock__btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .mainblock__btn {
+    margin: 0 0 20px 0;
+  }
+  .mainblock__btn:last-child {
+    margin: 0;
+  }
+
+  .block-title {
+    font-size: 50px;
+  }
+
+  .block-subtitle {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 500px) {
+  .achievements__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .achievements__box {
+    margin: 0 0 40px 0;
+  }
+  .achievements__box:last-child {
+    margin: 0;
+  }
+
+  .achievements__icon {
+    margin: 0 0 10px 0;
+  }
+
+  .achievements__number {
+    margin: 0 0 5px 0;
+  }
+
+  .footer__text {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 425px) {
+  .categories__box-title {
+    font-size: 25.5px;
+  }
+
+  .categories__box-subtitle {
+    font-size: 19px;
+  }
+
+  .body-title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+  }
+
+  .block-title {
+    font-size: 40px;
+  }
+
+  .block-subtitle {
+    font-size: 26.4px;
+  }
+}
